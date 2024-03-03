@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../css/login.css">
+
+</head>
+<body>
+
+  <center>  
+
+          <h3 >Login Here</h3>
+
+          <form>
+              <table>
+                <tr>
+                  <td >Username:</td>
+                  <td><input type="text" id="user" placeholder="Enter Username Here"></td>
+
+                </tr>
+                <tr>
+                  <td >Password:</td>
+                  <td><input type="password" id="pwd" placeholder="Enter Password Here" autocomplete="on"></td>
+                </tr>
+                
+                <tr>
+                  <!-- the line below need css styling -->
+                  <!-- <td onclick="checkData()"><p> <span class="butto">submit</span></a></p></td> -->
+                  <input class="button" type="submit" value="submit" onclick="checkData()" style="margin-top: 72px;" >
+
+                  
+                </tr>
+                </form></td>
+                  <td>
+                       <p> 
+                            <a href="register.html">  
+                            <span class="button">Register</span></a>
+                      </p>
+                  </td>
+                </tr>
+
+              </table>
+          </form>
+  
+  </center>
+<script src="../js/login.js"></script>
+</body>
+</html>
